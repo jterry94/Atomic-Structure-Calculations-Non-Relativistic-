@@ -3,10 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5B86A642754987F00E288FA /* Mesh_Potential_Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5C2754987F00E288FA /* Mesh_Potential_Initialization.swift */; };
+		A5B86A652754987F00E288FA /* Mesh_Potential_Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5C2754987F00E288FA /* Mesh_Potential_Initialization.swift */; };
+		A5B86A662754987F00E288FA /* Mesh_Potential_Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5C2754987F00E288FA /* Mesh_Potential_Initialization.swift */; };
+		A5B86A672754987F00E288FA /* Mesh_Potential_Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5C2754987F00E288FA /* Mesh_Potential_Initialization.swift */; };
+		A5B86A682754987F00E288FA /* Output_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5D2754987F00E288FA /* Output_File.swift */; };
+		A5B86A692754987F00E288FA /* Output_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5D2754987F00E288FA /* Output_File.swift */; };
+		A5B86A6A2754987F00E288FA /* Output_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5D2754987F00E288FA /* Output_File.swift */; };
+		A5B86A6B2754987F00E288FA /* Output_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5D2754987F00E288FA /* Output_File.swift */; };
+		A5B86A6C2754987F00E288FA /* HFS_textbook_values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5E2754987F00E288FA /* HFS_textbook_values.swift */; };
+		A5B86A6D2754987F00E288FA /* HFS_textbook_values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5E2754987F00E288FA /* HFS_textbook_values.swift */; };
+		A5B86A6E2754987F00E288FA /* HFS_textbook_values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5E2754987F00E288FA /* HFS_textbook_values.swift */; };
+		A5B86A6F2754987F00E288FA /* HFS_textbook_values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5E2754987F00E288FA /* HFS_textbook_values.swift */; };
+		A5B86A702754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5F2754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift */; };
+		A5B86A712754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5F2754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift */; };
+		A5B86A722754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5F2754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift */; };
+		A5B86A732754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A5F2754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift */; };
+		A5B86A742754987F00E288FA /* Functional_Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A602754987F00E288FA /* Functional_Functions.swift */; };
+		A5B86A752754987F00E288FA /* Functional_Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A602754987F00E288FA /* Functional_Functions.swift */; };
+		A5B86A762754987F00E288FA /* Functional_Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A602754987F00E288FA /* Functional_Functions.swift */; };
+		A5B86A772754987F00E288FA /* Functional_Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A602754987F00E288FA /* Functional_Functions.swift */; };
+		A5B86A782754987F00E288FA /* WaveFunction_Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A612754987F00E288FA /* WaveFunction_Values.swift */; };
+		A5B86A792754987F00E288FA /* WaveFunction_Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A612754987F00E288FA /* WaveFunction_Values.swift */; };
+		A5B86A7A2754987F00E288FA /* WaveFunction_Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A612754987F00E288FA /* WaveFunction_Values.swift */; };
+		A5B86A7B2754987F00E288FA /* WaveFunction_Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A612754987F00E288FA /* WaveFunction_Values.swift */; };
+		A5B86A7C2754987F00E288FA /* Input_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A622754987F00E288FA /* Input_File.swift */; };
+		A5B86A7D2754987F00E288FA /* Input_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A622754987F00E288FA /* Input_File.swift */; };
+		A5B86A7E2754987F00E288FA /* Input_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A622754987F00E288FA /* Input_File.swift */; };
+		A5B86A7F2754987F00E288FA /* Input_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A622754987F00E288FA /* Input_File.swift */; };
+		A5B86A802754987F00E288FA /* Self_Consistent_Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A632754987F00E288FA /* Self_Consistent_Potentials.swift */; };
+		A5B86A812754987F00E288FA /* Self_Consistent_Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A632754987F00E288FA /* Self_Consistent_Potentials.swift */; };
+		A5B86A822754987F00E288FA /* Self_Consistent_Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A632754987F00E288FA /* Self_Consistent_Potentials.swift */; };
+		A5B86A832754987F00E288FA /* Self_Consistent_Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A632754987F00E288FA /* Self_Consistent_Potentials.swift */; };
+		A5B86A8527552B5200E288FA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8427552B5200E288FA /* TextView.swift */; };
+		A5B86A8627552B5200E288FA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8427552B5200E288FA /* TextView.swift */; };
+		A5B86A8727552B5200E288FA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8427552B5200E288FA /* TextView.swift */; };
+		A5B86A8827552B5200E288FA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8427552B5200E288FA /* TextView.swift */; };
+		A5B86A8A27552C4A00E288FA /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8927552C4A00E288FA /* TextExportDocument.swift */; };
+		A5B86A8B27552C4A00E288FA /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8927552C4A00E288FA /* TextExportDocument.swift */; };
+		A5B86A8C27552C4A00E288FA /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8927552C4A00E288FA /* TextExportDocument.swift */; };
+		A5B86A8D27552C4A00E288FA /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8927552C4A00E288FA /* TextExportDocument.swift */; };
+		A5B86A8F275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */; };
+		A5B86A90275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */; };
+		A5B86A91275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */; };
+		A5B86A92275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */; };
 		D292F169275493660008A716 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F168275493660008A716 /* Tests_iOS.swift */; };
 		D292F174275493660008A716 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F173275493660008A716 /* Tests_macOS.swift */; };
 		D292F176275493660008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F14D275493650008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift */; };
@@ -15,6 +59,26 @@
 		D292F179275493660008A716 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F14E275493650008A716 /* ContentView.swift */; };
 		D292F17A275493660008A716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D292F14F275493660008A716 /* Assets.xcassets */; };
 		D292F17B275493660008A716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D292F14F275493660008A716 /* Assets.xcassets */; };
+		D292F190275494000008A716 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D292F18F275494000008A716 /* CorePlot */; };
+		D292F197275494190008A716 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D292F196275494190008A716 /* CorePlot */; };
+		D292F199275494310008A716 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D292F198275494310008A716 /* CorePlot */; };
+		D292F19B275494360008A716 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D292F19A275494360008A716 /* CorePlot */; };
+		D292F19D2754953B0008A716 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F19C2754953B0008A716 /* CorePlot.swift */; };
+		D292F19E2754953B0008A716 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F19C2754953B0008A716 /* CorePlot.swift */; };
+		D292F19F2754953B0008A716 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F19C2754953B0008A716 /* CorePlot.swift */; };
+		D292F1A02754953B0008A716 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F19C2754953B0008A716 /* CorePlot.swift */; };
+		D292F1AA275495A10008A716 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1A9275495A10008A716 /* PlotDataClass.swift */; };
+		D292F1AB275495A10008A716 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1A9275495A10008A716 /* PlotDataClass.swift */; };
+		D292F1AC275495A10008A716 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1A9275495A10008A716 /* PlotDataClass.swift */; };
+		D292F1AD275495A10008A716 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1A9275495A10008A716 /* PlotDataClass.swift */; };
+		D292F1B3275496150008A716 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1B2275496150008A716 /* ChangingPlotParameters.swift */; };
+		D292F1B4275496150008A716 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1B2275496150008A716 /* ChangingPlotParameters.swift */; };
+		D292F1B5275496150008A716 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1B2275496150008A716 /* ChangingPlotParameters.swift */; };
+		D292F1B6275496150008A716 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1B2275496150008A716 /* ChangingPlotParameters.swift */; };
+		D292F1BC275496580008A716 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1BB275496580008A716 /* CalculatePlotData.swift */; };
+		D292F1BD275496580008A716 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1BB275496580008A716 /* CalculatePlotData.swift */; };
+		D292F1BE275496580008A716 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1BB275496580008A716 /* CalculatePlotData.swift */; };
+		D292F1BF275496580008A716 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F1BB275496580008A716 /* CalculatePlotData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +99,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5B86A5C2754987F00E288FA /* Mesh_Potential_Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh_Potential_Initialization.swift; sourceTree = "<group>"; };
+		A5B86A5D2754987F00E288FA /* Output_File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Output_File.swift; sourceTree = "<group>"; };
+		A5B86A5E2754987F00E288FA /* HFS_textbook_values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFS_textbook_values.swift; sourceTree = "<group>"; };
+		A5B86A5F2754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schroedinger_Eq_SubRoutine.swift; sourceTree = "<group>"; };
+		A5B86A602754987F00E288FA /* Functional_Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functional_Functions.swift; sourceTree = "<group>"; };
+		A5B86A612754987F00E288FA /* WaveFunction_Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveFunction_Values.swift; sourceTree = "<group>"; };
+		A5B86A622754987F00E288FA /* Input_File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input_File.swift; sourceTree = "<group>"; };
+		A5B86A632754987F00E288FA /* Self_Consistent_Potentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Self_Consistent_Potentials.swift; sourceTree = "<group>"; };
+		A5B86A8427552B5200E288FA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		A5B86A8927552C4A00E288FA /* TextExportDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExportDocument.swift; sourceTree = "<group>"; };
+		A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermanSkillmanCalculator.swift; sourceTree = "<group>"; };
 		D292F14D275493650008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic_Structure_Calculations__Non_Relativistic_App.swift; sourceTree = "<group>"; };
 		D292F14E275493650008A716 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D292F14F275493660008A716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +124,10 @@
 		D292F16F275493660008A716 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D292F173275493660008A716 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D292F175275493660008A716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D292F19C2754953B0008A716 /* CorePlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		D292F1A9275495A10008A716 /* PlotDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		D292F1B2275496150008A716 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		D292F1BB275496580008A716 /* CalculatePlotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D292F197275494190008A716 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D292F190275494000008A716 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D292F199275494310008A716 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D292F19B275494360008A716 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,14 +175,30 @@
 				D292F167275493660008A716 /* Tests iOS */,
 				D292F172275493660008A716 /* Tests macOS */,
 				D292F155275493660008A716 /* Products */,
+				D292F195275494190008A716 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D292F14C275493650008A716 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A5B86A602754987F00E288FA /* Functional_Functions.swift */,
+				A5B86A8927552C4A00E288FA /* TextExportDocument.swift */,
+				A5B86A5E2754987F00E288FA /* HFS_textbook_values.swift */,
+				A5B86A622754987F00E288FA /* Input_File.swift */,
+				A5B86A5C2754987F00E288FA /* Mesh_Potential_Initialization.swift */,
+				A5B86A5D2754987F00E288FA /* Output_File.swift */,
+				A5B86A5F2754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift */,
+				A5B86A632754987F00E288FA /* Self_Consistent_Potentials.swift */,
+				A5B86A612754987F00E288FA /* WaveFunction_Values.swift */,
 				D292F14D275493650008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift */,
+				A5B86A8427552B5200E288FA /* TextView.swift */,
 				D292F14E275493650008A716 /* ContentView.swift */,
+				D292F1A9275495A10008A716 /* PlotDataClass.swift */,
+				D292F19C2754953B0008A716 /* CorePlot.swift */,
+				D292F1B2275496150008A716 /* ChangingPlotParameters.swift */,
+				D292F1BB275496580008A716 /* CalculatePlotData.swift */,
+				A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */,
 				D292F14F275493660008A716 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +250,13 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		D292F195275494190008A716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +273,9 @@
 			dependencies = (
 			);
 			name = "Atomic Structure Calculations (Non-Relativistic) (iOS)";
+			packageProductDependencies = (
+				D292F196275494190008A716 /* CorePlot */,
+			);
 			productName = "Atomic Structure Calculations (Non-Relativistic) (iOS)";
 			productReference = D292F154275493660008A716 /* Atomic Structure Calculations (Non-Relativistic).app */;
 			productType = "com.apple.product-type.application";
@@ -184,6 +293,9 @@
 			dependencies = (
 			);
 			name = "Atomic Structure Calculations (Non-Relativistic) (macOS)";
+			packageProductDependencies = (
+				D292F18F275494000008A716 /* CorePlot */,
+			);
 			productName = "Atomic Structure Calculations (Non-Relativistic) (macOS)";
 			productReference = D292F15C275493660008A716 /* Atomic Structure Calculations (Non-Relativistic).app */;
 			productType = "com.apple.product-type.application";
@@ -202,6 +314,9 @@
 				D292F166275493660008A716 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
+			packageProductDependencies = (
+				D292F198275494310008A716 /* CorePlot */,
+			);
 			productName = "Tests iOS";
 			productReference = D292F164275493660008A716 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -220,6 +335,9 @@
 				D292F171275493660008A716 /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
+			packageProductDependencies = (
+				D292F19A275494360008A716 /* CorePlot */,
+			);
 			productName = "Tests macOS";
 			productReference = D292F16F275493660008A716 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -258,6 +376,9 @@
 				Base,
 			);
 			mainGroup = D292F147275493650008A716;
+			packageReferences = (
+				D292F18E275494000008A716 /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
 			productRefGroup = D292F155275493660008A716 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,7 +429,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D292F19D2754953B0008A716 /* CorePlot.swift in Sources */,
+				A5B86A7C2754987F00E288FA /* Input_File.swift in Sources */,
+				A5B86A802754987F00E288FA /* Self_Consistent_Potentials.swift in Sources */,
+				D292F1BC275496580008A716 /* CalculatePlotData.swift in Sources */,
+				D292F1AA275495A10008A716 /* PlotDataClass.swift in Sources */,
+				A5B86A6C2754987F00E288FA /* HFS_textbook_values.swift in Sources */,
+				A5B86A782754987F00E288FA /* WaveFunction_Values.swift in Sources */,
+				A5B86A742754987F00E288FA /* Functional_Functions.swift in Sources */,
+				D292F1B3275496150008A716 /* ChangingPlotParameters.swift in Sources */,
+				A5B86A8A27552C4A00E288FA /* TextExportDocument.swift in Sources */,
+				A5B86A8527552B5200E288FA /* TextView.swift in Sources */,
+				A5B86A682754987F00E288FA /* Output_File.swift in Sources */,
+				A5B86A8F275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */,
+				A5B86A702754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift in Sources */,
 				D292F178275493660008A716 /* ContentView.swift in Sources */,
+				A5B86A642754987F00E288FA /* Mesh_Potential_Initialization.swift in Sources */,
 				D292F176275493660008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +453,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D292F19E2754953B0008A716 /* CorePlot.swift in Sources */,
+				A5B86A7D2754987F00E288FA /* Input_File.swift in Sources */,
+				A5B86A812754987F00E288FA /* Self_Consistent_Potentials.swift in Sources */,
+				D292F1BD275496580008A716 /* CalculatePlotData.swift in Sources */,
+				D292F1AB275495A10008A716 /* PlotDataClass.swift in Sources */,
+				A5B86A6D2754987F00E288FA /* HFS_textbook_values.swift in Sources */,
+				A5B86A792754987F00E288FA /* WaveFunction_Values.swift in Sources */,
+				A5B86A752754987F00E288FA /* Functional_Functions.swift in Sources */,
+				D292F1B4275496150008A716 /* ChangingPlotParameters.swift in Sources */,
+				A5B86A8B27552C4A00E288FA /* TextExportDocument.swift in Sources */,
+				A5B86A8627552B5200E288FA /* TextView.swift in Sources */,
+				A5B86A692754987F00E288FA /* Output_File.swift in Sources */,
+				A5B86A90275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */,
+				A5B86A712754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift in Sources */,
 				D292F179275493660008A716 /* ContentView.swift in Sources */,
+				A5B86A652754987F00E288FA /* Mesh_Potential_Initialization.swift in Sources */,
 				D292F177275493660008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +477,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B86A762754987F00E288FA /* Functional_Functions.swift in Sources */,
 				D292F169275493660008A716 /* Tests_iOS.swift in Sources */,
+				A5B86A7E2754987F00E288FA /* Input_File.swift in Sources */,
+				A5B86A8727552B5200E288FA /* TextView.swift in Sources */,
+				D292F1B5275496150008A716 /* ChangingPlotParameters.swift in Sources */,
+				A5B86A722754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift in Sources */,
+				A5B86A7A2754987F00E288FA /* WaveFunction_Values.swift in Sources */,
+				D292F1AC275495A10008A716 /* PlotDataClass.swift in Sources */,
+				A5B86A6E2754987F00E288FA /* HFS_textbook_values.swift in Sources */,
+				A5B86A91275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */,
+				A5B86A8C27552C4A00E288FA /* TextExportDocument.swift in Sources */,
+				A5B86A662754987F00E288FA /* Mesh_Potential_Initialization.swift in Sources */,
+				D292F1BE275496580008A716 /* CalculatePlotData.swift in Sources */,
+				D292F19F2754953B0008A716 /* CorePlot.swift in Sources */,
+				A5B86A6A2754987F00E288FA /* Output_File.swift in Sources */,
+				A5B86A822754987F00E288FA /* Self_Consistent_Potentials.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +500,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B86A772754987F00E288FA /* Functional_Functions.swift in Sources */,
 				D292F174275493660008A716 /* Tests_macOS.swift in Sources */,
+				A5B86A7F2754987F00E288FA /* Input_File.swift in Sources */,
+				A5B86A8827552B5200E288FA /* TextView.swift in Sources */,
+				D292F1B6275496150008A716 /* ChangingPlotParameters.swift in Sources */,
+				A5B86A732754987F00E288FA /* Schroedinger_Eq_SubRoutine.swift in Sources */,
+				A5B86A7B2754987F00E288FA /* WaveFunction_Values.swift in Sources */,
+				D292F1AD275495A10008A716 /* PlotDataClass.swift in Sources */,
+				A5B86A6F2754987F00E288FA /* HFS_textbook_values.swift in Sources */,
+				A5B86A92275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */,
+				A5B86A8D27552C4A00E288FA /* TextExportDocument.swift in Sources */,
+				A5B86A672754987F00E288FA /* Mesh_Potential_Initialization.swift in Sources */,
+				D292F1BF275496580008A716 /* CalculatePlotData.swift in Sources */,
+				D292F1A02754953B0008A716 /* CorePlot.swift in Sources */,
+				A5B86A6B2754987F00E288FA /* Output_File.swift in Sources */,
+				A5B86A832754987F00E288FA /* Self_Consistent_Potentials.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +877,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D292F18E275494000008A716 /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D292F18F275494000008A716 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D292F18E275494000008A716 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+		D292F196275494190008A716 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D292F18E275494000008A716 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+		D292F198275494310008A716 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D292F18E275494000008A716 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+		D292F19A275494360008A716 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D292F18E275494000008A716 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D292F148275493650008A716 /* Project object */;
 }
