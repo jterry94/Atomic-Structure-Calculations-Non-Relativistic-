@@ -51,6 +51,10 @@
 		A5B86A90275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */; };
 		A5B86A91275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */; };
 		A5B86A92275531C200E288FA /* HermanSkillmanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */; };
+		A5B86A942755FA5700E288FA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A5B86A932755FA5700E288FA /* Credits.rtf */; };
+		A5B86A952755FA5700E288FA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A5B86A932755FA5700E288FA /* Credits.rtf */; };
+		A5B86A962755FA5700E288FA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A5B86A932755FA5700E288FA /* Credits.rtf */; };
+		A5B86A972755FA5700E288FA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A5B86A932755FA5700E288FA /* Credits.rtf */; };
 		D292F169275493660008A716 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F168275493660008A716 /* Tests_iOS.swift */; };
 		D292F174275493660008A716 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F173275493660008A716 /* Tests_macOS.swift */; };
 		D292F176275493660008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F14D275493650008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift */; };
@@ -110,6 +114,7 @@
 		A5B86A8427552B5200E288FA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		A5B86A8927552C4A00E288FA /* TextExportDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExportDocument.swift; sourceTree = "<group>"; };
 		A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermanSkillmanCalculator.swift; sourceTree = "<group>"; };
+		A5B86A932755FA5700E288FA /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		D292F14D275493650008A716 /* Atomic_Structure_Calculations__Non_Relativistic_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic_Structure_Calculations__Non_Relativistic_App.swift; sourceTree = "<group>"; };
 		D292F14E275493650008A716 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D292F14F275493660008A716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,6 +205,7 @@
 				D292F1BB275496580008A716 /* CalculatePlotData.swift */,
 				A5B86A8E275531C200E288FA /* HermanSkillmanCalculator.swift */,
 				D292F14F275493660008A716 /* Assets.xcassets */,
+				A5B86A932755FA5700E288FA /* Credits.rtf */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -397,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D292F17A275493660008A716 /* Assets.xcassets in Resources */,
+				A5B86A942755FA5700E288FA /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D292F17B275493660008A716 /* Assets.xcassets in Resources */,
+				A5B86A952755FA5700E288FA /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +420,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B86A962755FA5700E288FA /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +428,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B86A972755FA5700E288FA /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

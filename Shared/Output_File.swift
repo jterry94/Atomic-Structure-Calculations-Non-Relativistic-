@@ -22,10 +22,10 @@ class Output_File: NSObject {
     func make_energy_output_file(atom_name: String, z_value: Double, final_results_array: [(r_list: [Double], psi_list: [Double], quant_n: Double, quant_l: Double, quant_m: Double, number_electrons: Double, new_energy: Double)]) {
         
         // Creates output file named "Energy_Output.dat" in documents folder
-        let fileName = "Energy_Output"
-        let DocumentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-        print("File Path: \(DocumentDirURL.path)")
-        let fileURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("dat")
+//        let fileName = "Energy_Output"
+//        let DocumentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+//        print("File Path: \(DocumentDirURL.path)")
+//        let fileURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("dat")
         var writeString: String = atom_name + " (Z=" + String(Int(z_value)) + ")\n\n" + "Orbital   # -e       E(NRL)\n\n"
         
         // Variables to hold quantum number, number electrons and energy strings
@@ -54,12 +54,12 @@ class Output_File: NSObject {
         
         myHartreeFockSCFCalculator!.plotDataModel!.calculatedText.append(writeString)
         
-        do {
-            try writeString.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
-        }
-        catch {
-            print("Failed reading from URL: \(fileURL), Error: " + error.localizedDescription)
-        }
+//        do {
+//            try writeString.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
+//        }
+//        catch {
+//            print("Failed reading from URL: \(fileURL), Error: " + error.localizedDescription)
+//        }
         
     }
     
@@ -87,9 +87,9 @@ class Output_File: NSObject {
         let fileName = "Wavefunction_Potential_Output"
         
         // Creates URL for new file with above name
-        let DocumentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-        print("File Path: \(DocumentDirURL.path)")
-        let fileURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("dat")
+//        let DocumentDirURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+//        print("File Path: \(DocumentDirURL.path)")
+//        let fileURL = DocumentDirURL.appendingPathComponent(fileName).appendingPathExtension("dat")
         
         myHartreeFockSCFCalculator!.plotDataModel!.calculatedText.append("\n\n")
         
@@ -313,12 +313,12 @@ class Output_File: NSObject {
         
         myHartreeFockSCFCalculator!.plotDataModel!.calculatedText.append(writeString)
         
-        do {
-            try writeString.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
-        }
-        catch {
-            print("Failed reading from URL: \(fileURL), Error: " + error.localizedDescription)
-        }
+//        do {
+//            try writeString.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
+//        }
+//        catch {
+//            print("Failed reading from URL: \(fileURL), Error: " + error.localizedDescription)
+//        }
         
     }
     
