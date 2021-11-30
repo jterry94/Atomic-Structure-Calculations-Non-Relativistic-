@@ -6,7 +6,8 @@
 //  Copyright © 2018 Varrick Suezaki. All rights reserved.
 //
 
-import Cocoa
+//import Cocoa
+import Foundation
 
 class Mesh_Potential_Initialization: NSObject {
     

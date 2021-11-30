@@ -6,7 +6,8 @@
 //  Copyright © 2018 Varrick Suezaki. All rights reserved.
 //
 
-import Cocoa
+//import Cocoa
+import Foundation
 
 class Input_File: NSObject {
     
@@ -14,20 +15,20 @@ class Input_File: NSObject {
     
     
     // Opens Finder and returns URL of selected file
-    func get_user_file_path() -> URL {
-        
-        let geFilePanel: NSOpenPanel = NSOpenPanel()
-        var filePath :URL = URL(string:("file://"))!
-        
-        geFilePanel.runModal()
-        
-        // Get the file path from the NSSavePanel
-        
-        filePath = URL(string:("file://" + (geFilePanel.url?.path)!))!
-        
-        return(filePath)
-        
-    }
+//    func get_user_file_path() -> URL {
+//
+//        let geFilePanel: NSOpenPanel = NSOpenPanel()
+//        var filePath :URL = URL(string:("file://"))!
+//
+//        geFilePanel.runModal()
+//
+//        // Get the file path from the NSSavePanel
+//
+//        filePath = URL(string:("file://" + (geFilePanel.url?.path)!))!
+//
+//        return(filePath)
+//
+//    }
     
     /// Name: read_DAT_110pt_inputfile
     /// Description: Reads input file URL (must be in the specified 110 point potential form) and returns a tuple with all the information

@@ -6,7 +6,8 @@
 //  Copyright © 2018 Varrick Suezaki. All rights reserved.
 //
 
-import Cocoa
+//import Cocoa
+import Foundation
 
 class Schroedinger_Eq_SubRoutine: NSObject {
     

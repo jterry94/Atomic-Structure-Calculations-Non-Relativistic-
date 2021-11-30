@@ -7,7 +7,8 @@
 //
 //Side note: Z=58 Cerium has wrong electron config, there should be 1 electron in 5d orbital and 4f orbital, not 2 in 4f orbital
 
-import Cocoa
+//import Cocoa
+import Foundation
 
 class HFS_textbook_values: NSObject {
     

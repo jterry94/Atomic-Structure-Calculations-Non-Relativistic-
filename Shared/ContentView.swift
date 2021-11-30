@@ -132,14 +132,18 @@ struct ContentView: View {
             
             HStack{
                 
-                Spacer()
+               // Spacer()
+                
+#if os(macOS)
                 
                 Picker("Output", selection: $selectedWavefunction, content: {
                     ForEach(outputWavefunctionArray, id:\.self) {
-                        Text($0)
+                    //ForEach(0..<outputWavefunctionArray.count) {
+                        Text($0).tag($0)
                                         }
                 })
-                    .frame(minWidth: 100.0, idealWidth: 300.0, maxWidth: 400.0, alignment: .center)
+                    .padding()
+                    //.frame(minWidth: 100.0, idealWidth: 300.0, maxWidth: 400.0, alignment: .center)
                     .onChange(of: selectedWavefunction, perform: { selection in
                         
                         if let index = outputWavefunctionArray.firstIndex(of: selection) {
@@ -162,8 +166,62 @@ struct ContentView: View {
                         
                         
                     })
+
+    
+#elseif os(iOS)
                 
-                Spacer()
+                NavigationView{
+                    
+                    Form{
+                        
+                        Section{
+                            
+                            Picker("Output", selection: $selectedWavefunction, content: {
+                                ForEach(outputWavefunctionArray, id:\.self) {
+                                //ForEach(0..<outputWavefunctionArray.count) {
+                                    Text($0).tag($0)
+                                                    }
+                            })
+                                .padding()
+                                //.frame(minWidth: 100.0, idealWidth: 300.0, maxWidth: 400.0, alignment: .center)
+                                .onChange(of: selectedWavefunction, perform: { selection in
+                                    
+                                    if let index = outputWavefunctionArray.firstIndex(of: selection) {
+                                        
+                                        selectedWavefunctionIndex = index
+                                        
+                                    }
+                                    
+                                    if selectedWavefunctionIndex != (outputWavefunctionArray.count - 1){
+                                        
+                                        updateWavefunctionPlot(index: selectedWavefunctionIndex)
+                                        
+                                    }
+                                    else{
+                                        
+                                        updatePotentialPlot()
+                                        
+                                    }
+                                    
+                                    
+                                    
+                                })
+                            
+                            
+                        }
+                        
+                        
+                    }
+                    
+                
+                }
+
+#endif
+                
+                
+                    
+                
+               // Spacer()
                 
                 
             }
