@@ -6,7 +6,6 @@
 //  Copyright © 2018 Varrick Suezaki. All rights reserved.
 //
 
-//import Cocoa
 import Foundation
 
 class Input_File: NSObject {
@@ -14,29 +13,11 @@ class Input_File: NSObject {
     var myHartreeFockSCFCalculator: HermanSkillmanCalculator? = nil
     
     
-    // Opens Finder and returns URL of selected file
-//    func get_user_file_path() -> URL {
-//
-//        let geFilePanel: NSOpenPanel = NSOpenPanel()
-//        var filePath :URL = URL(string:("file://"))!
-//
-//        geFilePanel.runModal()
-//
-//        // Get the file path from the NSSavePanel
-//
-//        filePath = URL(string:("file://" + (geFilePanel.url?.path)!))!
-//
-//        return(filePath)
-//
-//    }
-    
     /// Name: read_DAT_110pt_inputfile
     /// Description: Reads input file URL (must be in the specified 110 point potential form) and returns a tuple with all the information
     ///
     /// - Parameter input_file_path: URL of 110 point potential input file
     /// - Returns: Returns tuple containing following information: out (atom name, Z, exchange_alpha, KEY, BETA, THRESH, mesh_count, MAXIT, KUT, RADION, BRATIO, XION, # core shells, #val shells, potential values, electron configuration)
-    //func read_DAT_110pt_inputfile(input_file_path: String) -> (String, Double, Double, Int, Double, Double,
-    
     func read_DAT_110pt_inputfile(input_file_string: String) -> (String, Double, Double, Int, Double, Double, Double, Int, Int, Double, Double, Double, Int, Int, [Double], [(quant_n: Double, quant_l: Double, quant_m: Double, numb_electrons: Double, trial_energy: Double)]) {
         
         // Variables to store input file data
@@ -58,7 +39,7 @@ class Input_File: NSObject {
         var read_electron_config_array: [(quant_n: Double, quant_l: Double, quant_m: Double, numb_electrons: Double, trial_energy: Double)] = []
         
         
-        do {
+        
             // turns input.dat file into array of string values, cuts out extra lines and empty spaces
             //let contents: String = try String(contentsOf: input_file_path)
             let contents: String = input_file_string
@@ -127,12 +108,6 @@ class Input_File: NSObject {
                 
             }
             
-        // If failed to read input file of selected URL, prints error message
-        } catch {
-            
-           // print("Failed reading from URL: \(input_file_path), Error: " + error.localizedDescription)
-            print("Failed reading from URL: \(input_file_string), Error: " + error.localizedDescription)
-        }
         
         return(read_name, read_z_value, read_exchange_alpha, read_KEY, read_BETA_TOL, read_THRESH, read_mesh_count, read_MAXIT, read_KUT, read_RADION, read_BRATIO, read_XION, read_core_electrons, read_val_electrons, read_pot_list, read_electron_config_array)
         

@@ -143,7 +143,7 @@ struct ContentView: View {
                                         }
                 })
                     .padding()
-                    //.frame(minWidth: 100.0, idealWidth: 300.0, maxWidth: 400.0, alignment: .center)
+                    .frame(minWidth: 100.0, idealWidth: 300.0, maxWidth: 400.0, alignment: .center)
                     .onChange(of: selectedWavefunction, perform: { selection in
                         
                         if let index = outputWavefunctionArray.firstIndex(of: selection) {
@@ -183,7 +183,7 @@ struct ContentView: View {
                                                     }
                             })
                                 .padding()
-                                //.frame(minWidth: 100.0, idealWidth: 300.0, maxWidth: 400.0, alignment: .center)
+                                .frame(minWidth: 100.0, idealWidth: 300.0, maxWidth: 400.0, alignment: .center)
                                 .onChange(of: selectedWavefunction, perform: { selection in
                                     
                                     if let index = outputWavefunctionArray.firstIndex(of: selection) {

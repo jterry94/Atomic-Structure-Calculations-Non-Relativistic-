@@ -6,7 +6,6 @@
 //  Copyright © 2018 Varrick Suezaki. All rights reserved.
 //
 
-//import Cocoa
 import Foundation
 
 class Self_Consistent_Potentials: NSObject {

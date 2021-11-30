@@ -6,7 +6,6 @@
 //  Copyright © 2018 Varrick Suezaki. All rights reserved.
 //
 
-//import Cocoa
 import Foundation
 
 class Functional_Functions: NSObject {
