@@ -6,7 +6,9 @@ This repository contains the input files necessary to use the code in the main b
 Here is an example of an input file for Carbon
 
 CONT     POT     RAD
+
 CARBON
+
    0 0.001  0.00001 441   1  50   0   0.000000000   1.000000000   1.00000
  1.00000 .99384 .98748 .98095 .97428 .96750 .96064 .95371 .94674 .93974
   .93273 .91873 .90483 .89111 .87760 .86436 .85141 .83876 .82642 .81440
