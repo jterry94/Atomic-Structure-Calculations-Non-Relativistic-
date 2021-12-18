@@ -53,8 +53,8 @@ CARBON
   The line containing:  6    1   2  0.000000 must be changed to make a new element.
   
   The first number in the line is the the atomic number of the element Z. In this case, Z=6.
-  The second number is the number of unfilled orbitals, 1 for Carbon.
-  The third number is the number of filled orbitals, 2 for Carbon. 
+  The second number is the number of core orbitals, 1 for Carbon.
+  The third number is the number of valence orbitals, 2 for Carbon. 
   The fourth number is the ionicity, which is 0.000000 for neutral atoms.
   
   The next lines specify the orbitals for the element. 
